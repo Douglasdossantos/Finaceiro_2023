@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface\Generic\" />
+    <Folder Include="Interface\ICategoria\" />
+    <Folder Include="Interface\IDespesa\" />
+    <Folder Include="Interface\ISistemaFinanceiro\" />
+    <Folder Include="Interface\NewFolder\" />
+  </ItemGroup>
+
+</Project>
