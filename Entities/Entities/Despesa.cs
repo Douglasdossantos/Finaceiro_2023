@@ -17,15 +17,15 @@ namespace Entities.Entities
         public int Ano { get; set; }
         public EnumTipoDespesa TipoDespesa {get;set;}
         public DateTime DataCadastro { get; set; }
-
+        public DateTime DataPagamento { get; set; }
         public DateTime DataAlteracao { get; set; }
         public DateTime DataVenciment { get; set; }
         public bool Pago { get; set; }
         public bool DespesaAtrasada { get; set; }
 
-        [ForeignKey("SistemaFinanceiro")]
+        [ForeignKey("Categoria")]
         [Column(Order = 1)]
-        public int IdSistema { get; set; }
+        public int IdCategoria { get; set; }
         public virtual Categoria Categoria { get; set; }
     }
 }

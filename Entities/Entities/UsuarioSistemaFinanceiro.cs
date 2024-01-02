@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace Entities.Entities
 {
     [Table("UsuariSistemaFinanceiro")]
-    internal class UsuarioSistemaFinanceiro 
+    public class UsuarioSistemaFinanceiro 
     {
         public int Id { get; set; }
         public string Administrador { get; set; }
